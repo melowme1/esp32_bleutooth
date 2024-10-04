@@ -2,15 +2,19 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     text-align: center;
-    background-color: yellow;
+    background-image: url('cheesebackground.png');
+   
 }
+
+
+
 h1 {
     font-size: 1.8rem;
     color: white;
 }
 .topnav {
     overflow: hidden;
-    background-color: #0A1128;
+    background-color: #ff00cc;
 }
 body {
     margin: 0;
@@ -27,7 +31,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .card {
-    background-color: white;
+    background-image: url('200w.gif');
     box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5);
 }
 button {
@@ -58,6 +62,7 @@ button {
 }
 .disconnectButton:hover{
     background-color: #eeff00;
+    
 }
 
 .gray-label {
